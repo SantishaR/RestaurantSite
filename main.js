@@ -11,12 +11,10 @@ const containerOne = document.querySelector('#menu-container');
 
 
  document.body.appendChild(Head.navbar);
- container.appendChild(HomePage.section);
- indexBody.appendChild(container);
-
-
-
-document.body.appendChild(MenuPage.menuBox);
+container.appendChild(HomePage.homeSection);
+indexBody.appendChild(container);
+ 
+containerOne.appendChild(MenuPage.menuBox);
 menuBody.appendChild(containerOne);
 
 
