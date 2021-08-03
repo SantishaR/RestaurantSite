@@ -21,11 +21,11 @@ export const HomePage = (() => {
 
 // append elements to parent div
     
-    section.appendChild(heading);
-    section.appendChild(paragraph);
-    section.appendChild(headingTwo);
-    section.appendChild(email);
-    section.appendChild(number);
+homeSection.appendChild(heading);
+homeSection.appendChild(paragraph);
+homeSection.appendChild(headingTwo);
+homeSection.appendChild(email);
+homeSection.appendChild(number);
 
    
     return {homeSection}
