@@ -2,7 +2,7 @@ export const HomePage = (() => {
 
     // creating DOM elements
     
-    const section = document.createElement('div');
+    const homeSection = document.createElement('div');
     const heading = document.createElement('h1');
     const paragraph = document.createElement('p');
     const headingTwo = document.createElement('h2');
@@ -10,7 +10,7 @@ export const HomePage = (() => {
     const number = document.createElement('p');
 
 
-    section.classList.add('content-section');
+    homeSection.classList.add('content-section');
     
     heading.textContent = 'Sky Dining';
     paragraph.textContent = 'Fine dining at its highest!';
@@ -28,6 +28,6 @@ export const HomePage = (() => {
     section.appendChild(number);
 
    
-    return {section}
+    return {homeSection}
 
 })();

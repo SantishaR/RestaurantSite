@@ -101,7 +101,6 @@ menuBox.appendChild(headThree);
 
 
 
-
 // Adding Classes
 menuBox.classList = 'menu-box';
 headOne.classList = 'menu-heading';
@@ -121,7 +120,7 @@ dessert1.classList = 'list-items';
 dessert2.classList = 'list-items';
 dessert3.classList = 'list-items';
 secPrices1.classList = 'prices';
-secPrices2.classList = 'ptices';
+secPrices2.classList = 'prices';
 secPrices3.classList = 'prices';
 
 headThree.classList = 'heading';
@@ -134,5 +133,8 @@ pricesTwo1.classList = 'prices';
 pricesTwo2.classList ='prices';
 pricesTwo3.classList = 'prices';
 pricesTwo4.classList = 'prices';
+
+    
+    
 return {menuBox};
 })(); 
