@@ -16,7 +16,7 @@ const containerOne = document.querySelector('#menu-container');
 
 
 
-document.body.appendChild(MenuPage.menuBox);
+container.appendChild(MenuPage.menuBox);
 menuBody.appendChild(containerOne);
 
 

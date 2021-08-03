@@ -1,31 +1,5 @@
 export const MenuPage = (() => {
 
-    // creating DOM elements
-    
-   // const menuContent = document.createElement('div');
-   // const headingOne = document.createElement('h1');
-    // const para = document.createElement('p');
-    
-
-
-    // menuContent.classList.add('menu-content');
-    
-
-    // headingOne.textContent = 'Our Menu';
-    // para.textContent = 'Hamburger';
-    
-
-
-// append elements to parent div
-    
-    
-    // menuContent.appendChild(headingOne);
-    // menuContent.appendChild(para);
-
-
-   
-    // return {menuContent}
-const container = document.querySelector('#container');
 const menuBox = document.createElement('section');
 const headOne = document.createElement('h1');
 const unoderedList = document.createElement('ul');
@@ -126,7 +100,7 @@ menuBox.appendChild(headThree);
 
 
 
-container.appendChild(menuBox);
+
 
 // Adding Classes
 menuBox.classList = 'menu-box';

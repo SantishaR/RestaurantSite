@@ -12,7 +12,6 @@ export const HomePage = (() => {
 
     section.classList.add('content-section');
     
-
     heading.textContent = 'Sky Dining';
     paragraph.textContent = 'Fine dining at its highest!';
     headingTwo.textContent = 'Contact Us';
@@ -21,7 +20,6 @@ export const HomePage = (() => {
 
 
 // append elements to parent div
-    
     
     section.appendChild(heading);
     section.appendChild(paragraph);
