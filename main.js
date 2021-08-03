@@ -1,6 +1,7 @@
 import { Head } from './nav.js';
 import { HomePage } from './index.js';
 import { MenuPage } from './menu.js';
+import { Footer } from './footer.js';
 
 const indexBody = document.querySelector('.index-body');
 const menuBody = document.querySelector('.menu-body');
@@ -13,5 +14,6 @@ indexBody?.appendChild(container);
 
 menuContainer?.appendChild(MenuPage.menuBox);
 menuBody?.appendChild(menuContainer);
+document.body.appendChild(Footer.footer);
 
 
