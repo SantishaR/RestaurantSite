@@ -11,7 +11,7 @@ const containerOne = document.querySelector('#menu-container');
 container.appendChild(HomePage.homeSection);
 indexBody.appendChild(container);
 
-container.appendChild(MenuPage.menuBox);
+containerOne.appendChild(MenuPage.menuBox);
 menuBody.appendChild(containerOne);
 
 
