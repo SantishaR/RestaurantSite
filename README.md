@@ -24,6 +24,10 @@ Santisha Reddy
 
 - Github: [@SantishaR](https://github.com/SantishaR)
 
+Rorisang Kgwete
+
+- Github: [@Rorisang07](https://github.com/Rorisang07)
+
 ## Acknowledgments
 
  [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation#dom---document-object-model)
