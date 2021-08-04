@@ -4,7 +4,7 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(54, 56, 204);
+  color: rgb(81, 148, 248);
   font-size: 5em;
 }
 
@@ -14,10 +14,15 @@ h2 {
   font-size: 3em;
 }
 
+h3 {
+  text-align: center;
+  color: rgb(214, 176, 245);
+  font-size: 2.5em;
+}
+
 p {
   text-align: center;
   font-size: 2em;
-  color: white;
 }
 
 a {
@@ -25,6 +30,12 @@ a {
   list-style: none;
   padding-left: 1em;
 }
+
+a:visited {
+  color: rgb(19, 25, 82);
+}
+
+
 .nav-bar {
   background-color: rgb(255, 253, 253);
   opacity: 0.8;
@@ -56,20 +67,14 @@ a {
 }
 
 .content-section {
-  border-radius: 5px;
+  border-radius: 28px;
   background-color: black;
+  color: rgb(255, 255, 255);
   opacity: 0.8;
   margin-top: 5em;
   margin: 5em;
 }
 
-.menu-content {
-  border-radius: 5px;
-  background-color: black;
-  opacity: 0.8;
-  margin-top: 5em;
-  margin: 5em;
-}
 
 .menu-box{
   background-color: black;
@@ -77,12 +82,10 @@ a {
   display: flex;
   flex-direction: column;
   color: white;
-  align-items:center;
-  justify-content:center;
   border-radius: 28px;
-  width: 75%;
-  margin-left: 180px;
-  height: 100vh;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin: 5em;
 }
 .menu-heading{
   margin-bottom: 25px;
@@ -102,16 +105,17 @@ a {
 }
 .prices{
   float: right;
+  padding-right: 2em;
   
 }
 .footer-style {
-  position: static;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 253, 253);
   opacity: 0.8;
   margin-top: 5em;
-  margin: 5em;
-  font-size: 25px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  list-style-type: none;
+  font-size: 32px;
   }
