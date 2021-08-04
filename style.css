@@ -4,20 +4,19 @@ body {
 
 h1 {
   text-align: center;
-  color:#e0beb1;
-  font-size: 5em;
+  color:#f0936e;
+  font-size: 8em;
 }
 
 h2 {
   text-align: center;
-  color: rgb(214, 176, 245);
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h3 {
+  color: rgb(187, 117, 245);
   text-align: center;
-  color: rgb(214, 176, 245);
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 p {
@@ -32,7 +31,7 @@ a {
 }
 
 a:visited {
-  color: rgb(19, 25, 82);
+  color: rgb(0, 0, 0);
 }
 
 .nav-bar {
@@ -69,20 +68,17 @@ a:visited {
   border-radius: 28px;
   background-color: black;
   color: rgb(255, 255, 255);
-  opacity: 0.6;
-  margin-top: 5em;
-  margin: 5em;
+  opacity: 0.82;
+  margin: 5em 12em;
 }
 
 .menu-box {
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.82;
   display: flex;
   flex-direction: column;
   color: white;
   border-radius: 28px;
-  /* margin-top: 7em; */
-  /* margin-left: 8em; */
   margin: 5em auto;
   width: 70%;
 }

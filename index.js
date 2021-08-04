@@ -4,16 +4,16 @@ export const HomePage = (() => {
     
     const homeSection = document.createElement('div');
     const mainHeading = document.createElement('h1');
-    const slogan = document.createElement('h3');
+    const slogan = document.createElement('h2');
 
-    const addressHead = document.createElement('h2');
+    const addressHead = document.createElement('h3');
     const address = document.createElement('p');
 
-    const contactUs = document.createElement('h2');
+    const contactUs = document.createElement('h3');
     const email = document.createElement('p');
     const number = document.createElement('p');
 
-    const hours = document.createElement('h2');
+    const hours = document.createElement('h3');
     const times = document.createElement('p');
     const timesTwo = document.createElement('p');
 
