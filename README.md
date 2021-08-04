@@ -16,7 +16,7 @@ In this project we were tasked to create a simple site mainly using Javascript D
 
 ## Contributing
 - Pull requests are always welcome. Please open an issue first to discuss what you want to     alter if you want to make big changes.
-- To clone the project on your local machine, use: https://github.com/SantishaR/RestaurantSite.git;
+- To clone the project on your local machine, use: git clone https://github.com/SantishaR/RestaurantSite.git;
 
 ## License
 
