@@ -6,7 +6,7 @@ In this project we were tasked to create a simple site mainly using Javascript D
 
 ![Project Screenshot](images/screenshot.PNG)
 
-[Live Demo](https://twitter.com/Gaming__Bot)
+[Live Demo](https://raw.githack.com/SantishaR/RestaurantSite/main/index.html)
 
 ## Languages Used
 
