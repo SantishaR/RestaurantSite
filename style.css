@@ -4,13 +4,13 @@ body {
 
 h1 {
   text-align: center;
-  color: rgb(81, 148, 248);
+  color:#e0beb1;
   font-size: 5em;
 }
 
 h2 {
   text-align: center;
-  color: rgb(122, 48, 182);
+  color: rgb(214, 176, 245);
   font-size: 3em;
 }
 
@@ -88,11 +88,11 @@ a:visited {
 }
 .menu-heading {
   margin-bottom: 25px;
-  font-size: 35px;
+  font-size: 50px;
 }
 .heading {
-  font-size: 35px;
-  margin-top: 20px;
+  font-size: 40px;
+  margin-top: 27px;
   margin-bottom: 20px;
 }
 .unordered {
