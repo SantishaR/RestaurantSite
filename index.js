@@ -4,7 +4,7 @@ export const HomePage = (() => {
     
     const homeSection = document.createElement('div');
     const mainHeading = document.createElement('h1');
-    const slogan = document.createElement('p');
+    const slogan = document.createElement('h3');
 
     const addressHead = document.createElement('h2');
     const address = document.createElement('p');
@@ -23,7 +23,7 @@ export const HomePage = (() => {
     mainHeading.textContent = 'Sky Dining';
     slogan.textContent = 'Fine dining at its highest!';
 
-    addressHead.textContent = 'Address';
+    addressHead.textContent = 'Our Address';
     address.textContent = 'Magwa Crescent, Waterfall City, Midrand';
 
     contactUs.textContent = 'Contact Us';
@@ -31,8 +31,8 @@ export const HomePage = (() => {
     number.textContent = '011-254-8545';
 
     hours.textContent = 'Opening Hours';
-    times.textContent = 'Mon-Fri: 9am - 8pm';
-    timesTwo.textContent = 'Sat- Sun: 9am - 10pm';
+    times.textContent = 'Mon - Fri: 9am - 8pm';
+    timesTwo.textContent = ' Sat - Sun: 9am - 10pm';
 
 
 // append elements to parent div
