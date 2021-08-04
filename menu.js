@@ -3,99 +3,99 @@ export const MenuPage = (() => {
 const menuBox = document.createElement('div');
 const headOne = document.createElement('h1');
 const unoderedList = document.createElement('ul');
-const list1 = document.createElement('li');
-const list2 = document.createElement('li');
-const list3 = document.createElement('li');
-const list4 = document.createElement('li');
-const prices1 = document.createElement('span');
-const prices2 = document.createElement('span');
-const prices3 = document.createElement('span');
-const prices4 = document.createElement('span');
+const listOne = document.createElement('li');
+const listTwo = document.createElement('li');
+const listThree = document.createElement('li');
+const listFour = document.createElement('li');
+const pricesOne = document.createElement('span');
+const pricesTwo = document.createElement('span');
+const pricesThree = document.createElement('span');
+const pricesFour = document.createElement('span');
 
 headOne.textContent = 'Our Menu';
- list1.textContent = 'Grilled Pork with salads';
- list2.textContent = 'Grilled Steak with Salsa';
- list3.textContent = 'Creamy Red Pepper Pasta ';
- list4.textContent = 'Glazed Pork Chops';
- prices1.textContent = 'R269.99';
- prices2.textContent = 'R279.99';
- prices3.textContent = 'R169.99';
- prices4.textContent = 'R149.99';
+ listOne.textContent = 'Grilled Pork with salads';
+ listTwo.textContent = 'Grilled Steak with Salsa';
+ listThree.textContent = 'Creamy Red Pepper Pasta ';
+ listFour.textContent = 'Glazed Pork Chops';
+ pricesOne.textContent = 'R269.99';
+ pricesTwo.textContent = 'R279.99';
+ pricesThree.textContent = 'R169.99';
+ pricesFour.textContent = 'R149.99';
 
 
  //Dessert Section
 const headTwo = document.createElement('h1');
 const unordered = document.createElement('ul');
-const dessert1 =document.createElement('li');
-const dessert2 =document.createElement('li');
-const dessert3 =document.createElement('li');
-const secPrices1 = document.createElement('span');
-const secPrices2= document.createElement ('span');
-const secPrices3 = document.createElement('span');
+const dessertOne =document.createElement('li');
+const dessertTwo =document.createElement('li');
+const dessertThree =document.createElement('li');
+const secPricesOne = document.createElement('span');
+const secPricesTwo= document.createElement ('span');
+const secPricesThree = document.createElement('span');
 
 headTwo.textContent = 'Dessert';
-dessert1.textContent = 'Chocolate banoffee pie';
-dessert2.textContent = 'Vanilla banoffee pie';
-dessert3.textContent = 'Mixed berry mousse ';
-secPrices1.textContent = 'R59.90';
-secPrices2.textContent = 'R49.99';
-secPrices3.textContent = 'R49.99';
+dessertOne.textContent = 'Chocolate banoffee pie';
+dessertTwo.textContent = 'Vanilla banoffee pie';
+dessertThree.textContent = 'Mixed berry mousse ';
+secPricesOne.textContent = 'R59.90';
+secPricesTwo.textContent = 'R49.99';
+secPricesThree.textContent = 'R49.99';
 
 //Drinks Section 
 const headThree  = document.createElement('h1');
 const unoderedlistTwo = document.createElement('ul');
-const listTwo1 = document.createElement('li');
-const listTwo2 = document.createElement('li');
-const listTwo3 = document.createElement('li');
-const listTwo4 = document.createElement('li'); 
-const pricesTwo1 = document.createElement('span');
-const pricesTwo2 = document.createElement('span');
-const pricesTwo3 = document.createElement('span');
-const pricesTwo4 = document.createElement('span');
+const thirdListOne = document.createElement('li');
+const thirdListTwo = document.createElement('li');
+const thirdListThree = document.createElement('li');
+const thirdListFour = document.createElement('li'); 
+const thirdPricesOne = document.createElement('span');
+const thirdPricesTwo = document.createElement('span');
+const thirdPricesThree = document.createElement('span');
+const thirdPricesFour = document.createElement('span');
 
 
 headThree.textContent = 'Drinks';
-listTwo1.textContent = 'Orange juice';
-listTwo2.textContent = 'Milkshake'
-listTwo3.textContent = 'Cafe Latte';
-listTwo4.textContent = 'Red Or White Wine';
- pricesTwo1.textContent = 'R59.99';
- pricesTwo2.textContent = 'R49.90';
- pricesTwo3.textContent = 'R69.99';
- pricesTwo4.textContent = 'R75.99'; 
+thirdListOne.textContent = 'Orange juice';
+thirdListTwo.textContent = 'Milkshake'
+thirdListThree.textContent = 'Cafe Latte';
+thirdListFour.textContent = 'Red Or White Wine';
+thirdPricesOne.textContent = 'R59.99';
+thirdPricesTwo.textContent = 'R49.90';
+thirdPricesThree.textContent = 'R69.99';
+thirdPricesFour.textContent = 'R75.99'; 
 
 
 
  // Appending children
  menuBox.appendChild(headOne);
- list1.appendChild(prices1);
- list2.appendChild(prices2);
- list3.appendChild(prices3);
- list4.appendChild(prices4);
+ listOne.appendChild(pricesOne);
+ listTwo.appendChild(pricesTwo);
+ listThree.appendChild(pricesThree);
+ listFour.appendChild(pricesFour);
 menuBox.appendChild(unoderedList);
-unoderedList.appendChild(list1);
-unoderedList.appendChild(list2);
-unoderedList.appendChild(list3);
-unoderedList.appendChild(list4);
+unoderedList.appendChild(listOne);
+unoderedList.appendChild(listTwo);
+unoderedList.appendChild(listThree);
+unoderedList.appendChild(listFour);
 
 menuBox.appendChild(headTwo);
-dessert3.appendChild(secPrices3);
-dessert2.appendChild(secPrices2);
-dessert1.append(secPrices1)
-unordered.appendChild(dessert3);
-unordered.appendChild(dessert2);
-unordered.appendChild(dessert1);
+dessertThree.appendChild(secPricesThree);
+dessertTwo.appendChild(secPricesTwo);
+dessertOne.append(secPricesOne)
+unordered.appendChild(dessertThree);
+unordered.appendChild(dessertTwo);
+unordered.appendChild(dessertOne);
 menuBox.appendChild(unordered);
 
 menuBox.appendChild(headThree);
- listTwo1.appendChild( pricesTwo1);
- listTwo2.appendChild(pricesTwo2);
- listTwo3.appendChild(pricesTwo3);
- listTwo4.appendChild(pricesTwo4);
- unoderedlistTwo.appendChild(listTwo1);
- unoderedlistTwo.appendChild(listTwo2);
- unoderedlistTwo.appendChild(listTwo3);
- unoderedlistTwo.appendChild(listTwo4);
+ thirdListOne.appendChild(thirdPricesOne);
+ thirdListTwo.appendChild(thirdPricesTwo);
+ thirdListThree.appendChild(thirdPricesThree);
+ thirdListFour.appendChild(thirdPricesFour);
+ unoderedlistTwo.appendChild(thirdListOne);
+ unoderedlistTwo.appendChild(thirdListTwo);
+ unoderedlistTwo.appendChild(thirdListThree);
+ unoderedlistTwo.appendChild(thirdListFour);
  menuBox.appendChild(unoderedlistTwo);
 
 
@@ -105,34 +105,34 @@ menuBox.appendChild(headThree);
 menuBox.classList = 'menu-box';
 headOne.classList = 'menu-heading';
 unoderedList.classList = 'unordered';
-list1.classList = 'list-items';
-list2.classList = 'list-items';
-list3.classList = 'list-items';
-list4.classList = 'list-items';
-prices1.classList = 'prices'; 
-prices2.classList = 'prices';
-prices3.classList = 'prices'; 
-prices4.classList = 'prices'; 
+listOne.classList = 'list-items';
+listTwo.classList = 'list-items';
+listThree.classList = 'list-items';
+listFour.classList = 'list-items';
+pricesOne.classList = 'prices'; 
+pricesTwo.classList = 'prices';
+pricesThree.classList = 'prices'; 
+pricesFour.classList = 'prices'; 
 
 headTwo.classList = 'heading';
 unordered.classList = 'unordered';
-dessert1.classList = 'list-items';
-dessert2.classList = 'list-items';
-dessert3.classList = 'list-items';
-secPrices1.classList = 'prices';
-secPrices2.classList = 'prices';
-secPrices3.classList = 'prices';
+dessertOne.classList = 'list-items';
+dessertTwo.classList = 'list-items';
+dessertThree.classList = 'list-items';
+secPricesOne.classList = 'prices';
+secPricesTwo.classList = 'prices';
+secPricesThree.classList = 'prices';
 
 headThree.classList = 'heading';
 unoderedlistTwo.classList = 'unordered';
-listTwo1.classList = 'list-items';
-listTwo2.classList = 'list-items';
-listTwo3.classList = 'list-items';
-listTwo4.classList = 'list-items';
-pricesTwo1.classList = 'prices';
-pricesTwo2.classList ='prices';
-pricesTwo3.classList = 'prices';
-pricesTwo4.classList = 'prices';
+thirdListOne.classList = 'list-items';
+thirdListTwo.classList = 'list-items';
+thirdListThree.classList = 'list-items';
+thirdListFour.classList = 'list-items';
+thirdPricesOne.classList = 'prices';
+thirdPricesTwo.classList ='prices';
+thirdPricesThree.classList = 'prices';
+thirdPricesFour.classList = 'prices';
 
     
     
