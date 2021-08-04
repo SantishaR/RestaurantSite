@@ -35,7 +35,6 @@ a:visited {
   color: rgb(19, 25, 82);
 }
 
-
 .nav-bar {
   background-color: rgb(255, 253, 253);
   opacity: 0.8;
@@ -70,43 +69,42 @@ a:visited {
   border-radius: 28px;
   background-color: black;
   color: rgb(255, 255, 255);
-  opacity: 0.8;
+  opacity: 0.6;
   margin-top: 5em;
   margin: 5em;
 }
 
-
-.menu-box{
+.menu-box {
   background-color: black;
-  opacity: 0.8 ;
+  opacity: 0.6;
   display: flex;
   flex-direction: column;
   color: white;
   border-radius: 28px;
-  margin-top: 5em;
-  margin-left: 5em;
-  margin: 5em;
+  /* margin-top: 7em; */
+  /* margin-left: 8em; */
+  margin: 5em auto;
+  width: 70%;
 }
-.menu-heading{
+.menu-heading {
   margin-bottom: 25px;
   font-size: 35px;
 }
-.heading{
+.heading {
   font-size: 35px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.unordered{
+.unordered {
   list-style: none;
 }
-.list-items{
+.list-items {
   font-size: 25px;
   letter-spacing: 2.5px;
 }
-.prices{
+.prices {
   float: right;
   padding-right: 2em;
-  
 }
 .footer-style {
   background-color: rgb(255, 253, 253);
@@ -118,4 +116,4 @@ a:visited {
   height: 3rem;
   list-style-type: none;
   font-size: 32px;
-  }
+}
