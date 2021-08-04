@@ -4,7 +4,7 @@ In this project we were tasked to create a simple site mainly using Javascript D
 
 ## Project Preview
 
-![Project Screenshot](images/screenshot.PNG)
+![Project Screenshot](images/screenshot.png)
 
 [Live Demo](https://raw.githack.com/SantishaR/RestaurantSite/main/index.html)
 
