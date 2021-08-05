@@ -1,6 +1,7 @@
 export const MenuPage = (() => {
 
 const menuBox = document.createElement('div');
+    
 const headOne = document.createElement('h1');
 const unoderedList = document.createElement('ul');
 const listOne = document.createElement('li');
